@@ -1,0 +1,365 @@
+* {
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box; 
+}
+body {
+	margin: 0;
+	padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1;
+    color: #fff;
+	font: 14px OpenSans, sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 900px;
+	text-align: center;
+}
+.top-content {
+    background-image: url(../img/bg-top-content.jpg);
+    position: relative;
+    padding-bottom: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    text-align: center;
+	padding: 60px 0 40px;
+}
+.logo img {	
+    width: 100%;
+}
+.top-content h1 {
+    color: #fff;
+    font-size: 50px;
+    padding: 20px 10px 60px;
+    text-transform: uppercase;
+}
+.top-content h1 span.strong {
+    display: block;
+    font-weight: bold;
+}
+form.top-content-form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -110px;
+    width: 334px;
+    margin: 0 auto;
+    padding: 6px 0;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+input#dob {
+    font-size: 16px;
+    padding: 10px 6px;
+    margin: 24px 0;
+    width: 264px;
+    padding: 9px 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+form.top-content-form p {
+    margin: 26px 45px;
+    color: #ccc;
+    font-size: 16px;
+}
+form.top-content-form button {
+    color: #fff;
+    width: 192px;
+    height: 45px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    background-color: #3366cc;
+}
+form.top-content-form button:hover {
+    background-color: #014CBF;
+}
+.content-second {
+    color: #000;
+    padding: 90px 0;
+}
+.content-second .info {
+    display: flex;
+    justify-content: space-between;
+}
+.content-second .info img {
+    width: initial;
+    padding-right: 15px;
+    object-fit: contain;
+}
+.content-second .document, .content-second .photos {
+    width: 44%;
+    display: flex;
+    padding-top: 60px;
+}
+.content-second .info .text {
+    text-align: left;
+    padding-left: 15px;
+}
+.content-second .info .text .title {
+    font-size: 28px;
+    font-weight: 600;
+}
+.content-second .info .text .description {
+    font-size: 28px;
+}
+.content-second .info .text .description {
+    font-size: 14px;
+    padding: 10px 0;
+    text-align: left;
+}
+.content-green {
+    background-image: url(../img/content-green.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 1150px;
+}
+.content-green .information {
+    
+}
+.content-green .information .tablet{
+    padding: 80px 0 10px;
+}
+.content-green .tablet img {
+    display: none;
+}
+.content-green .tablet .text {
+    background-image: url(../img/tablet.png);
+    background-size: 56%;
+    padding: 162px 4px 10px;
+    background-repeat: no-repeat; 
+}
+.content-green .tablet .text .title {
+    font-size: 40px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+.content-green .tablet .text .description {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 10px;
+    width: 77%;
+    margin: 0 auto;
+    line-height: 22px;
+}
+.content-green .tablet .text .description:nth-child(3) {
+    font-size: 14px;
+    padding: 30px 10px;
+}
+/*---------------------------laptop*/
+.content-green .information .laptop {
+    padding: 80px 0 15px;
+}
+.content-green .laptop img {
+    display: none;   
+}
+.content-green .laptop .text {
+    background-image: url(../img/laptop.png);
+    padding: 0px 4px 100px 50px;
+    min-height: 360px;
+    margin-top: 100px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position-y: 20px;
+}
+.content-green .laptop .text .title {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 0 20px;
+}
+.content-green .laptop .text .description {
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0px;
+    line-height: 22px;
+}
+.content-green .laptop .text .pos-left {
+    width: 60%;
+    float: right;
+    text-align: left;   
+}
+.content-green .laptop a.download-btn {
+    color: #fff;
+    font-size: 28px;
+    margin: 30px 0;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 4px solid #fff;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.content-green .laptop a.download-btn:hover {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 20px 0px rgba(255,255,255,1);
+}
+#map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 634px;
+    overflow: hidden;
+    position: relative;
+}
+.content-map {
+    position: relative;
+}
+.bottom-form {
+    left: 0;
+    right: 0;
+    bottom: 45px;
+    display: flex;
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    margin: auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#sampleform {
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+#sampleform input[type="text"], #sampleform input.mail {
+    width: 276px;
+    padding: 7px 15px;
+    font-size: 14px;
+    color: #a5a7ae;
+    margin: 12px 0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid #d8d8d8;
+}
+#sampleform textarea {
+    width: 276px;
+    height: 80px;
+    font-size: 14px;
+    color: #a5a7ae;
+    margin: 12px 0;
+    padding: 10px 15px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font: 14px OpenSans, sans-serif;
+}
+#sampleform  textarea:-moz-placeholder { 
+    color: #a5a7ae; 
+}
+#sampleform  textarea::-webkit-input-placeholder { 
+    color: #a5a7ae; 
+}
+#sampleform input[type="submit"] {
+    font-size: 0;
+    width: 68px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    background-image: url(../img/ok.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+#sampleform input[type="submit"]:hover {
+    transform: scale(1.1); 
+}
+#sampleform input[type="submit"]:focus {
+    border: none;
+    outline: none;
+}
+footer {
+    background-color: #43A06D;
+}
+.footer-text {
+    text-align: center;
+    padding: 20px 10px;
+}
+@media (max-width: 768px) {
+    .content-green {
+         padding: 10px 0 100px; 
+    }
+    .content-second .info {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .content-second .document, .content-second .photos {
+        width: 100%;
+    }
+    form.top-content-form {
+        width: 276px;
+    }
+    form.top-content-form input#dob {
+        width: 244px;
+    }
+    .content-green .laptop .text {
+        background-position-y: 20px;
+        background-position-x: -50px;
+    }
+    .content-green .laptop .text .pos-left {
+        width: 73%;
+    }
+}
+@media (max-width: 500px) {
+    .content-green {
+        padding: 10px 0 50px;
+    }
+    .content-green .information .laptop .text {
+        padding: 100px 4px 0px 50px;
+        background-position-y: 0px;
+        background-position-x: 0px;
+    }
+    .content-green .information .laptop .text .pos-left {
+        width: 100%; 
+        float: none; 
+        text-align: left;
+    }
+    .bottom-form {
+        width: 310px;
+        height: 310px;
+    }
+    #sampleform input[type="text"], #sampleform input.mail {
+        width: 190px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    #sampleform input[type="text"] {
+        margin-top: 20px;
+    }
+    #sampleform textarea {
+        width: 190px;
+        height: 60px;
+        padding: 5px;
+        margin: 5px 0;
+    }
+}
